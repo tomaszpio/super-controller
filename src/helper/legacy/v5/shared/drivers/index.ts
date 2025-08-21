@@ -9,6 +9,7 @@ import { Device as APCKey25Mk2Control } from './apc-key-25-mk2-control';
 import { Device as APCKey25Mk2Keys } from './apc-key-25-mk2-keys';
 import { Device as APCKey25 } from './apc-key-25';
 import { Device as APCMini } from './apc-mini';
+import { Device as APCMiniMK2 } from './apc-mini-mk2';
 import { Device as ArturiaMiniLabMKII } from './arturia-minilab-mkii';
 import { Device as Axiom49AxiomUSBIn } from './axiom-49-axiom-usb-in';
 import { Device as DDM4000 } from './ddm4000';
@@ -41,6 +42,7 @@ export const DRIVERS = (() => {
   map.set(APCKey25Mk2Keys.name, APCKey25Mk2Keys);
   map.set(APCKey25.name, APCKey25);
   map.set(APCMini.name, APCMini);
+  map.set(APCMiniMK2.name, APCMiniMK2);
   map.set(ArturiaMiniLabMKII.name, ArturiaMiniLabMKII);
   map.set(Axiom49AxiomUSBIn.name, Axiom49AxiomUSBIn);
   map.set(DDM4000.name, DDM4000);
