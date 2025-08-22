@@ -4,7 +4,7 @@ import { merge } from 'webpack-merge';
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import fs from 'fs';
 
-import baseConfig from './webpack.config.base';
+import baseConfig from './webpack.config.base.ts';
 import webpackPaths from './webpack.paths';
 import checkNodeEnv from '../scripts/check-node-env';
 

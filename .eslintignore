@@ -31,5 +31,6 @@ npm-debug.log.*
 # eslint ignores hidden directories by default:
 # https://github.com/eslint/eslint/issues/8429
 !.erb
+.erb/configs/*.ts
 
 src/helper/legacy
